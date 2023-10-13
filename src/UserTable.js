@@ -6,7 +6,6 @@ const UserTable = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Fetch data from the API
         fetch("https://dummyjson.com/users")
             .then((response) => response.json())
             .then((data) => {
@@ -50,7 +49,7 @@ const UserTable = () => {
                     )}
                 </tbody>
             </table>
-            <button onClick={() => window.location.href = "https://www.google.com"}>Back to Google</button>
+            <button onClick={() => window.location.href = "https://swarabraul.github.io/React-Ethnus-IndexPage/"}>Back To Index Page</button>
         </div>
     );
 };
