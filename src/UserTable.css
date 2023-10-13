@@ -1,0 +1,52 @@
+/* UserTable.css */
+
+/* Style for the User Table container */
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the loading message */
+tr.loading-row td {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+/* Style for the "Back to Google" button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
